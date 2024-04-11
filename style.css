@@ -1,4 +1,84 @@
-header {
-    background-color: goldenrod;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    
+.cabecalho {
+    background-color: #630000;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.cabecalho-imagem{
+    width: 13%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 50px;
+    font-size: 30px;
+}
+
+.brigadeiro-imagem{
+    width: 10%;
+}
+
+.brigadeiro{
+    background-image: linear-gradient(#630000,#e88080);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.brigadeiro-div-conteudo{
+    width: 34%;
+}
+.brigadeiro-titulo{
+    padding: 20px 0;
+}
+.doces-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.doces-imagem{
+    width: 160px;
+}
+
+.brigadeiros-icone{
+width: 24px;
+}
+
+.brigadeiro-div{
+    text-align: center;
+}
+
+.doces-titulo{
+    text-align: center;
+    padding: 50px;
+}
+
+.brigadeiro-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
 }
